@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+}
+.blog-section{
+    background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNYVsNqkJewog0yU2Ji4a5xPtqdTc47RsMqw&usqp=CAU);
+  
+}
+.contact{
+    background:url(images/back.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.contact form{
+    background:yellow;
+    box-shadow: var(--box-shadow);
+    border-radius: .5rem;
+    margin:2rem auto;
+    max-width: 70rem;
+    padding:2rem;
+}
+
+.contact form h3{
+    
+    text-align: center;
+    padding-bottom: 1.5rem;
+    font-size: 3rem;
+    text-transform: capitalize;
+}
+
+.contact form .inputBox{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact form .inputBox input,
+.contact form textarea{
+    width:100%;
+    background:#eee;
+    padding:1rem;
+    margin:.7rem 0;
+    border-radius: .5rem;
+
+    font-size: 1.7rem;
+}
+
+.contact form .inputBox input{
+    width:49%;
+}
