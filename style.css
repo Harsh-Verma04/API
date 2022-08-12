@@ -48,3 +48,33 @@
 .contact form .inputBox input{
     width:49%;
 }
+
+
+
+
+
+
+.details{
+    padding-top: 17px;
+    padding-right: 20px;
+}
+
+
+
+.footer-text{
+   display: flex;
+   margin-left: 38%;
+}
+
+.footer-div{
+   height: 250px;
+   width: 100%;
+}
+
+
+.btn-primary{
+   font-size: 5vh;
+   /* padding: 4vh 6vh; */
+   margin: 5vh 0;
+   width: 15vh;
+}
